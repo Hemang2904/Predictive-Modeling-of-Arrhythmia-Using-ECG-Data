@@ -28,14 +28,20 @@ The primary goal is to predict whether an individual is suffering from an arrhyt
 
 ## Results
 
-!
-
-
-
-
-
-
-
+| Model                          | Train Accuracy | Test Accuracy |
+|--------------------------------|----------------|---------------|
+| KNN Classifier                 | 0.648199       | 0.648352      |
+| Logistic Regression            | 0.939058       | 0.780220      |
+| Decision Tree Classifier       | 0.789474       | 0.681319      |
+| Linear SVC                     | 0.880886       | 0.780220      |
+| Kernelized SVC                 | 0.850416       | 0.791209      |
+| Random Forest Classifier       | 0.883657       | 0.747253      |
+| KNN Classifier with PCA        | 0.645429       | 0.648352      |
+| Logistic Regression with PCA   | 0.783934       | 0.791209      |
+| Linear SVC with PCA            | 0.808864       | 0.802198      |
+| Kernelized SVC with PCA        | 0.839335       | 0.802198      |
+| Decision Tree Classifier with PCA | 0.753463   | 0.604396      |
+| Random Forest Classifier with PCA | 1.000000   | 0.681319      |
 
 
 
